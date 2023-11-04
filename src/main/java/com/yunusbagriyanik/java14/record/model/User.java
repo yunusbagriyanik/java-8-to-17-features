@@ -1,4 +1,4 @@
-package com.yunusbagriyanik.java14.model;
+package com.yunusbagriyanik.java14.record.model;
 
 
 import java.util.UUID;

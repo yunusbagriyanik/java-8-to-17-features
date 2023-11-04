@@ -1,6 +1,6 @@
-package com.yunusbagriyanik.java14;
+package com.yunusbagriyanik.java14.record;
 
-import com.yunusbagriyanik.java14.model.User;
+import com.yunusbagriyanik.java14.record.model.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
