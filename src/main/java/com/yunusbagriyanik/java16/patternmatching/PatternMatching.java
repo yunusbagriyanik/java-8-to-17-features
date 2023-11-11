@@ -24,7 +24,7 @@ public class PatternMatching {
 
     public static void java16InstanceOf(Collection<Stack> collection) {
         if (collection instanceof Stack s) {
-            System.out.println("Collection's hashcode is: "+s.hashCode());
+            System.out.println("Collection's hashcode is: " + s.hashCode());
         } else if (collection instanceof List c) {
             System.out.println("Collection's hashcode is: " + c.hashCode());
         }
