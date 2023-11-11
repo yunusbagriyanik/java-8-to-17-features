@@ -1,7 +1,7 @@
 package com.yunusbagriyanik.java10.var;
 
 import com.yunusbagriyanik.java10.var.model.Student;
-import com.yunusbagriyanik.java14.record.RecordMain;
+import com.yunusbagriyanik.java16.record.RecordMain;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

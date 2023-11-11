@@ -1,6 +1,6 @@
 package com.yunusbagriyanik.java9;
 
-import com.yunusbagriyanik.java14.record.RecordMain;
+import com.yunusbagriyanik.java16.record.RecordMain;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

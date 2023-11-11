@@ -1,6 +1,5 @@
 package com.yunusbagriyanik.java8;
 
-import com.yunusbagriyanik.java14.record.RecordMain;
 import com.yunusbagriyanik.java8.model.Bicycle;
 import com.yunusbagriyanik.java8.model.MountainBike;
 import org.apache.logging.log4j.LogManager;
@@ -16,7 +15,7 @@ import java.util.stream.Collectors;
  * writing shorter and more readable code.
  */
 public class LambdaExpressionsMain {
-    protected static final Logger logger = LogManager.getLogger(RecordMain.class);
+    protected static final Logger logger = LogManager.getLogger(LambdaExpressionsMain.class);
 
     public static void main(String[] args) {
         List<Bicycle> bicycles = initData();
