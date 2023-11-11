@@ -1,6 +1,5 @@
 package com.yunusbagriyanik.java14.switchexp;
 
-import com.yunusbagriyanik.java16.record.RecordMain;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -8,7 +7,7 @@ import java.time.Month;
 
 // preview since Java 12
 public class SwitchExpressionsMain {
-    protected static final Logger logger = LogManager.getLogger(RecordMain.class);
+    protected static final Logger logger = LogManager.getLogger(SwitchExpressionsMain.class);
 
     public static void main(String[] args) {
         logger.info(before14(Month.FEBRUARY));

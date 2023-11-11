@@ -1,7 +1,6 @@
 package com.yunusbagriyanik.java10.var;
 
 import com.yunusbagriyanik.java10.var.model.Student;
-import com.yunusbagriyanik.java16.record.RecordMain;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,7 +15,7 @@ import java.util.List;
  * var is a reserved type name
  */
 public class VarMain {
-    protected static final Logger logger = LogManager.getLogger(RecordMain.class);
+    protected static final Logger logger = LogManager.getLogger(VarMain.class);
 
     public static void main(String[] args) {
         var url = "example.com";

@@ -1,6 +1,5 @@
 package com.yunusbagriyanik.java9;
 
-import com.yunusbagriyanik.java16.record.RecordMain;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +13,7 @@ import java.util.*;
  * - Does not allow null elements
  */
 public class ImmutableCollections {
-    protected static final Logger logger = LogManager.getLogger(RecordMain.class);
+    protected static final Logger logger = LogManager.getLogger(ImmutableCollections.class);
 
     public static void main(String[] args) {
         // before java 9 unmodifiable list

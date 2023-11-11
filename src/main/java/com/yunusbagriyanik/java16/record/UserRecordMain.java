@@ -6,8 +6,8 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.UUID;
 
-public class RecordMain {
-    protected static final Logger logger = LogManager.getLogger(RecordMain.class);
+public class UserRecordMain {
+    protected static final Logger logger = LogManager.getLogger(UserRecordMain.class);
 
     public static void main(String[] args) {
         User user = new User(UUID.randomUUID().toString(), "UserFirstName", "UserLastName", 1);
